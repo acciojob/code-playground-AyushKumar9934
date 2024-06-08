@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className="main-container">
-      <Link to="/privateRoute">PlayGround</Link>
+      <Link to="/privateRoute">PlayGround</Link><br></br>
       <Link to="/login">Login</Link>
       {isLogin ? <p>You are currently logged in.</p> : <p>You are currently logged out.</p>}
       <Routes>
